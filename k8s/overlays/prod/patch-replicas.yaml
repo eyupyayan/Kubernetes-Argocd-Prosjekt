@@ -1,0 +1,7 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: k8s-argocd-lab
+  namespace: batman-lab
+spec:
+  replicas: 3

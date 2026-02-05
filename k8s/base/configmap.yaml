@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: batman-lab
+data:
+  APP_NAME: "BatmanApp"
+  APP_ENV: "dev"
